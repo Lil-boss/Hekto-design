@@ -14,6 +14,11 @@
   margin: 0 auto;
 }
 
+.container__2 {
+  width: 65%;
+  margin: 0 auto;
+}
+
 /* top__header */
 .top__header {
   height: 44px;
@@ -501,4 +506,116 @@
 .title_price {
   font-size: 14px;
   color: #151875;
+}
+
+/* treading__product */
+.Treading__product {
+  margin-bottom: 134px;
+}
+.product__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+.tred__card {
+  height: 350px;
+  width: 270px;
+  filter: drop-shadow(0px 8px 40px rgba(49, 32, 138, 0.05));
+  padding: 12px 12px 0 12px;
+  background-color: white;
+}
+
+.tred__img {
+  height: 247px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f6f8;
+}
+.tred__info {
+  padding: 15px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #151875;
+}
+
+.red__title {
+  font-size: 16px;
+}
+.tred__price {
+  margin-top: 8px;
+  font-size: 14px;
+}
+.tred__price span {
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+.adv__grid {
+  margin-top: 39px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 35px;
+}
+.adv__1 {
+  background-color: #fff6fb;
+}
+.adv__2 {
+  background-color: #eeeffb;
+}
+.adv__card {
+  height: 270px;
+  width: 420px;
+  box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+
+.adv__info {
+  padding: 34px 0 0 25px;
+}
+.adv__title {
+  font-weight: 600;
+  font-size: 26px;
+  color: #151875;
+}
+
+.adv__btn {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration-line: underline;
+  color: #fb2e86;
+}
+.adv__img {
+  float: right;
+}
+
+.adv__multi__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.adv__single__card {
+  height: 74px;
+  width: 300px;
+  color: #f5f6f8;
+  column-gap: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.adv__single__img {
+  width: 107px;
+  height: 74px;
+  background-color: #f5f6f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title_price span {
+  text-decoration: line-through;
 }

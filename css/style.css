@@ -80,12 +80,13 @@
 
 .nav__list__item {
   display: flex;
-  gap: 35px;
+  gap: 4px;
   list-style: none;
 }
 .item {
   font-size: 16px;
   font-weight: 400;
+  padding: 30px 15px;
 }
 .item:hover {
   color: #fb2e86;
@@ -265,7 +266,7 @@
   display: block;
 }
 .card__info {
-  height: 125px;
+  height: 152px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -273,6 +274,7 @@
   background-color: #fff;
 }
 .card:hover .card__info {
+  height: 125px;
   background-color: #2f1ac4;
 }
 .card__info .title {

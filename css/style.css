@@ -9,12 +9,8 @@
 }
 
 /* common__class */
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
 
-.container__2 {
+.container {
   width: 65%;
   margin: 0 auto;
 }
@@ -32,6 +28,13 @@
   justify-content: center;
   gap: 10px;
 }
+
+.logo {
+  font-size: 34px;
+  font-weight: 700;
+  color: #0d0e43;
+}
+
 /* top__header */
 .top__header {
   height: 44px;
@@ -74,11 +77,7 @@
   align-items: center;
   gap: 88px;
 }
-.logo {
-  font-size: 34px;
-  font-weight: 700;
-  color: #0d0e43;
-}
+
 .nav__list__item {
   display: flex;
   gap: 35px;
@@ -626,4 +625,94 @@
 }
 .title_price span {
   text-decoration: line-through;
+}
+
+/* footer__section */
+
+.footer__section {
+  height: 479px;
+  background-color: #eeeffb;
+}
+
+.footer__grid {
+  height: 479px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  gap: 71px;
+}
+
+.first__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.search__content {
+  margin: 31px 0 25px 0;
+}
+.search__bar2 {
+  border: 2px solid #e7e6ef;
+  height: 44px;
+  width: 377px;
+  outline: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+}
+.search__btn2 {
+  height: 43px;
+  width: 80px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background-color: #fb2e86;
+  float: right;
+  border-left: none;
+  cursor: pointer;
+}
+
+.contact__info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8a8fb9;
+}
+.second__content {
+  margin-top: 100px;
+}
+.common__heading {
+  font-size: 22px;
+  margin-bottom: 42px;
+}
+
+.link__content {
+  font-weight: 400;
+  font-size: 16px;
+  color: #8a8fb9;
+}
+.link__content p {
+  margin-bottom: 21px;
+}
+
+.footer__second {
+  height: 53px;
+  background-color: #e7e4f8;
+}
+.second__grid {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social__icon {
+  margin-right: 18px;
+}
+.auth__info {
+  font-weight: 600;
+  font-size: 16px;
+  color: #9da0ae;
 }

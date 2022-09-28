@@ -19,6 +19,19 @@
   margin: 0 auto;
 }
 
+.heading {
+  font-size: 42px;
+  color: #1a0b5b;
+  text-align: center;
+  margin: 129px 0px 48px 0px;
+}
+
+.flexing__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 /* top__header */
 .top__header {
   height: 44px;
@@ -205,12 +218,7 @@
 .featured__product {
   margin-bottom: 71px;
 }
-.heading {
-  font-size: 42px;
-  color: #1a0b5b;
-  text-align: center;
-  margin: 129px 0px 48px 0px;
-}
+
 .product__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

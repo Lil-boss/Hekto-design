@@ -1,4 +1,6 @@
-/* font */
+/*---------------------
+ --------font----------
+ ----------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,600&display=swap");
 
 * {
@@ -8,8 +10,9 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
-/* common__class */
-
+/*---------------------
+ ----common__class-----
+ ----------------------*/
 .container {
   width: 65%;
   margin: 0 auto;
@@ -35,7 +38,7 @@
   color: #0d0e43;
 }
 
-/* top__header */
+/*--------- top__header ---------*/
 .top__header {
   height: 44px;
   background-color: #7e33e0;
@@ -63,7 +66,7 @@
   gap: 32px;
 }
 
-/* nav_bar */
+/*------- nav_bar --------*/
 
 .navbar {
   height: 78px;
@@ -111,7 +114,7 @@
   cursor: pointer;
 }
 
-/* Hero section */
+/*------------ Hero section -------------*/
 
 .hero__section {
   height: 764px;
@@ -127,7 +130,7 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-/* left__side */
+/*----------- left__side ------------*/
 
 .left__side {
   display: flex;
@@ -172,7 +175,7 @@
   background-color: white;
 }
 
-/* right__side */
+/*---------- right__side ----------*/
 
 .right__side {
   display: flex;
@@ -214,7 +217,7 @@
   border: none;
 }
 
-/* featured__product */
+/*--------------- featured__product ----------------*/
 .featured__product {
   margin-bottom: 71px;
 }
@@ -340,7 +343,7 @@
   width: 24px;
 }
 
-/* latest__product */
+/*------------- latest__product ---------------*/
 .latest__product {
   margin-bottom: 63px;
 }
@@ -420,7 +423,7 @@
   color: #fb2448;
 }
 
-/* service__offer */
+/*-------------- service__offer ---------------*/
 .service__section {
   margin-bottom: 135px;
 }
@@ -455,7 +458,7 @@
   padding: 20px 27px;
 }
 
-/* unique__section */
+/*------------- unique__section --------------*/
 
 .unique__section {
   height: 579px;
@@ -517,7 +520,7 @@
   color: #151875;
 }
 
-/* treading__product */
+/*------------------ treading__product ----------------*/
 .Treading__product {
   margin-bottom: 134px;
 }
@@ -629,7 +632,7 @@
   text-decoration: line-through;
 }
 
-/* footer__section */
+/*------------------- footer__section -------------------*/
 
 .footer__section {
   height: 479px;

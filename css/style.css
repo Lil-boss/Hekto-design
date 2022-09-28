@@ -408,7 +408,7 @@
 
 /* service__offer */
 .service__section {
-  margin-bottom: 200px;
+  margin-bottom: 135px;
 }
 .service__wrapper {
   display: grid;
@@ -439,4 +439,66 @@
   font-size: 16px;
   color: rgba(26, 11, 91, 0.3);
   padding: 20px 27px;
+}
+
+/* unique__section */
+
+.unique__section {
+  height: 579px;
+  background-color: #f1f0ff;
+  margin-bottom: 132px;
+}
+
+.uniq__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.uniq__left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url("../utility/images/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: right;
+}
+
+.uniq__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 29px;
+}
+
+.heading__right {
+  font-size: 35px;
+  letter-spacing: 0.015em;
+  color: #151875;
+}
+
+.right__item {
+  font-weight: 500;
+  font-size: 16px;
+  color: #acabc3;
+}
+
+.foot__item {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+}
+.cart__btn {
+  height: 45px;
+  width: 157px;
+  background-color: #fb2e86;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.title_price {
+  font-size: 14px;
+  color: #151875;
 }

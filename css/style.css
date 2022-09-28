@@ -96,13 +96,17 @@
 /* Hero section */
 
 .hero__section {
+  position: absolute;
+  width: 1920px;
   height: 764px;
   background-color: #f2f0ff;
+}
+.hero__slider {
   background-image: url("../utility/images/light.png");
   background-repeat: no-repeat;
 }
 .hero__wrapper {
-  height: 764px;
+  height: 760px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -170,4 +174,27 @@
 .right__side__img__two {
   margin-bottom: 450px;
   margin-left: 600px;
+}
+
+.doted {
+  text-align: center;
+  z-index: 999;
+  margin-top: -50px;
+}
+.dot {
+  margin-bottom: 300px;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  transform: rotate(45deg);
+  border: 2px solid #fb2e86;
+  display: inline-block;
+  background-color: #f2f0ff;
+  margin-left: 10px;
+}
+
+.active {
+  background-color: #fb2e86;
+  border: none;
 }

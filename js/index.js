@@ -20,4 +20,17 @@ function slider() {
   setTimeout(slider, 2000);
 }
 
+let search = document.getElementById("search");
+let btn = document.getElementById("searchBtn");
+function OpenSearchBar() {
+  btn.addEventListener("click", function () {
+    if (search.style.display === "block") {
+      search.style.display = "none";
+    } else {
+      search.style.display = "block";
+    }
+  });
+}
+
+OpenSearchBar();
 slider();
